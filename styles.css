@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:wght@100..900&family=Montserrat:wght@400;500&family=Oswald:wght@200..700&family=Vollkorn:wght@500&display=swap');
+
+body {
+    /* text-align: center; */
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    border: none;
+}
+
+.score {
+    width: 300px;
+    background-color: rgba(43, 43, 172, 0.877);
+     
+    /* background: linear-gradient(45deg, rgba(255,255,255,0.4), rgba(255,255,255,0.2)); */
+    padding: 50px 20px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* border: 2px solid red; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+}
+.whole{
+    display: inline-flex;
+}
+
+.circle {
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: rgb(88, 17, 219); */
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(0deg, #332CEB, #6440FE);
+    /* background: linear-gradient(0deg, red, blue); */
+}
+
+.circle h1{
+    font-size: 50px;
+}
+.sum{
+    color: black;
+    text-align: left;
+    padding-left: 7px;
+}
+.summary{
+    background-color: rgb(250, 250, 255);
+    
+   text-align: center;
+   width: 300px;
+   height: 500px;
+   border-radius: 17px;
+   font-family: inherit;
+   font-weight: bolder;
+   gap: 100px;
+   font-size: larger;
+}
+.reac{
+    margin-top: 20px;
+    background-color: pink;
+    padding: 20px 20px;
+    border-radius: 12px;
+    color: red;
+    
+}
+.mem{
+    margin-top: 15px;
+    background-color: palevioletred;
+    border-radius: 12px;
+    padding: 20px 20px ;
+    
+}
+.ver{
+    margin-top: 15px;
+    background-color: plum;
+    border-radius: 12px;
+    padding: 20px 20px ;
+    color: blue;
+}
+.vis{
+    margin-top: 15px;
+    background-color: rgb(194, 70, 194);
+    border-radius: 12px;
+     padding: 20px;
+}
+button{
+    margin-top: 30px;
+    text-decoration-color: white;
+    font-weight: bolder;
+    background-color: rgb(56, 50, 50);
+    padding: 2px 20px;
+    width: 290px;
+    font-size: large;
+    height: 50px;
+    letter-spacing: 1px;
+    border-radius: 70px;
+    text-align: center;
+}
+#text{
+    color: blue;
+}
+#rrr{
+    color: red;
+}
