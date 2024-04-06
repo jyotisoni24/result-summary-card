@@ -79,28 +79,44 @@ body {
     background-color: pink;
     padding: 20px 20px;
     border-radius: 12px;
-    color: red;
-    
+    cursor: pointer;
+    transition: all 0.3s ease-in-out ;
 }
 .mem{
     margin-top: 15px;
     background-color: palevioletred;
     border-radius: 12px;
     padding: 20px 20px ;
-    
+    cursor: pointer;
+    transition: all 0.3s ease-in-out ;
 }
 .ver{
     margin-top: 15px;
     background-color: plum;
     border-radius: 12px;
     padding: 20px 20px ;
-    color: blue;
+    color: blue; cursor: pointer;
+    transition: all 0.3s ease-in-out ;
 }
 .vis{
     margin-top: 15px;
     background-color: rgb(194, 70, 194);
     border-radius: 12px;
      padding: 20px;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out ;
+}
+.ver:hover{
+    transform: translateY(-3px);
+}
+.reac:hover{
+    transform: translateY(-3px);
+}
+.mem:hover{
+    transform: translateY(-3px);
+}
+.vis:hover{
+    transform: translateY(-3px);
 }
 button{
     margin-top: 30px;
@@ -114,6 +130,12 @@ button{
     letter-spacing: 1px;
     border-radius: 70px;
     text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out ;
+   
+} 
+button:hover{
+  transform: translateY(-4px);
 }
 #text{
     color: blue;
